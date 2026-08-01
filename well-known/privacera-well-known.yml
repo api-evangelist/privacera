@@ -1,0 +1,17 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of /.well-known/ on privacera.com, docs.privacera.com, paig.ai
+host: https://privacera.com
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 301
+    note: redirects to trailing-slash WordPress page, not an OIDC discovery document
+  - path: /.well-known/security.txt
+    host: https://docs.privacera.com
+    status: 404
+  - path: /.well-known/security.txt
+    host: https://paig.ai
+    status: 404
+notes: No machine-readable /.well-known/ discovery documents were published at probe time.

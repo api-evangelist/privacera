@@ -1,0 +1,34 @@
+# Privacera (Trust3 AI)
+
+> Privacera, now branded Trust3 AI, is a unified data and AI governance platform founded by the creators of Apache Ranger. It provides sensitive-data discovery, centralized access control and policy enforcement, encryption and masking, and access auditing across cloud data platforms (Snowflake, Databricks, AWS, Azure, GCP, Oracle), plus AI governance for LLM and agentic workflows, RAG/Vector DB access control, and prompt filtering. Its open-source project PAIG (Privacera AI Governance) delivers security, safety, and observability for GenAI applications.
+
+## Products
+- [Data Governance Agent](https://privacera.com/): sensitive data discovery, centralized access control & policies, encryption & masking, access audit & reporting, data stewardship, posture manager
+- [AI Governance Agent](https://trust3.ai/): LLM and agentic-workflow governance, prompt filtering, Vector DB/RAG access control, policy enforcement and auditability
+- [PAIG (open source)](https://paig.ai/): open-source guardrails for GenAI applications — security, safety, observability
+
+## Docs
+- [Documentation](https://docs.privacera.com/): product and platform documentation
+- [Getting Started](https://docs.privacera.com/get-started/): onboarding guide
+- [REST API Reference](https://docs.privacera.com/resources/api-reference/): Apache Ranger API, Discovery Scan API, PEG API, Policy Ops Server API (Self-Managed)
+- [Connectors](https://docs.privacera.com/connectors/): 50+ data-source and security integrations
+- [Release Notes](https://docs.privacera.com/resources/releases/): product release history
+
+## Packages (PyPI)
+- [paig-client](https://pypi.org/project/paig-client/): PAIG Shield Client Library
+- [paig-server](https://pypi.org/project/paig-server/): PAIG Server
+- [paig-common](https://pypi.org/project/paig-common/): PAIG Shield Common Library
+- [paig-evaluation](https://pypi.org/project/paig-evaluation/): PAIG Evaluation
+- [privacera-shield](https://pypi.org/project/privacera-shield/): Privacera AI Governance (PAIG) Shield Plugin Library
+
+## Code
+- [GitHub Organization](https://github.com/privacera): PAIG, examples, installation scripts, notebooks
+
+## Company
+- [Blog](https://privacera.com/blog/)
+- [Pricing](https://privacera.com/pricing/)
+- [Free Trial](https://privacera.com/free-trial-try-privaceracloud-free/)
+- [Support](https://privacera.zendesk.com/)
+- [Trust Center](https://privacera.com/trust-center/): SOC 2 Type II, Coordinated Vulnerability Disclosure program
+- [Terms of Service](https://privacera.com/terms-of-service/)
+- [Privacy Policy](https://privacera.com/privacy-policy/)

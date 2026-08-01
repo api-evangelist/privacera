@@ -1,8 +1,15 @@
 aid: privacera
 name: Privacera
-description: 'Privacera is a company surfaced as a portfolio company of accel, battery-ventures, sapphire-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: big-data. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: >-
+  Privacera, now branded Trust3 AI, is a unified data and AI governance platform founded by
+  the creators of Apache Ranger. It delivers sensitive-data discovery, centralized access
+  control and policy enforcement, encryption and masking, and access auditing across cloud
+  data platforms including Snowflake, Databricks, AWS, Azure, Google Cloud and Oracle, plus
+  AI governance for LLM and agentic workflows, RAG and Vector DB access control, and prompt
+  filtering. Its open-source PAIG (Privacera AI Governance) project provides security, safety
+  and observability guardrails for GenAI applications, and it exposes REST APIs (Apache Ranger
+  API, Discovery Scan API, PEG API, Policy Ops Server API) plus first-party Python client
+  libraries for programmatic governance.
 url: https://raw.githubusercontent.com/api-evangelist/privacera/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +19,30 @@ x-backed-by:
 - sapphire-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://privacera.com/wp-content/uploads/2023/05/social-share-temp.jpg
 tags:
 - Company
 - Big Data
+- Data Governance
+- Data Security
+- AI Governance
+- Access Control
+- Data Privacy
+- Apache Ranger
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,4 +51,49 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.privacera.com/
+  url: https://www.privacera.com/
+- type: Documentation
+  url: https://docs.privacera.com/
+- type: APIReference
+  url: https://docs.privacera.com/resources/api-reference/
+- type: GettingStarted
+  url: https://docs.privacera.com/get-started/
+- type: Blog
+  url: https://privacera.com/blog/
+- type: Support
+  url: https://privacera.zendesk.com/
+- type: GitHubOrganization
+  url: https://github.com/privacera
+- type: Pricing
+  url: https://privacera.com/pricing/
+- type: SignUp
+  url: https://privacera.com/free-trial-try-privaceracloud-free/
+- type: TermsOfService
+  url: https://privacera.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://privacera.com/privacy-policy/
+- type: ChangeLog
+  url: https://docs.privacera.com/resources/releases/
+- type: Packages
+  url: packages/privacera-packages.yml
+- type: SDKs
+  url: packages/privacera-packages.yml
+- type: LLMsTxt
+  url: llms/privacera-llms.txt
+- type: WellKnown
+  url: well-known/privacera-well-known.yml
+- type: DomainSecurity
+  url: security/privacera-domain-security.yml
+- type: TrustCenter
+  url: security/privacera-trust-center.yml
+- type: Compliance
+  url: https://privacera.com/trust-center/
+- type: VulnerabilityDisclosure
+  url: security/privacera-vulnerability-disclosure.yml
+- type: Security
+  url: https://privacera.com/trust-center/
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1

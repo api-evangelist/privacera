@@ -1,0 +1,41 @@
+generated: '2026-07-20'
+method: searched
+source: https://pypi.org/user/ (PAIG project packages on PyPI) + https://github.com/privacera/paig
+packages:
+  - language: python
+    registry: pypi
+    name: paig-client
+    url: https://pypi.org/project/paig-client/
+    install: pip install paig-client
+    summary: PAIG Shield Client Library
+    official: true
+  - language: python
+    registry: pypi
+    name: paig-server
+    url: https://pypi.org/project/paig-server/
+    install: pip install paig-server
+    summary: PAIG Server
+    repo: https://github.com/privacera/paig
+    official: true
+  - language: python
+    registry: pypi
+    name: paig-common
+    url: https://pypi.org/project/paig-common/
+    install: pip install paig-common
+    summary: PAIG Shield Common Library
+    official: true
+  - language: python
+    registry: pypi
+    name: paig-evaluation
+    url: https://pypi.org/project/paig-evaluation/
+    install: pip install paig-evaluation
+    summary: PAIG Evaluation
+    repo: https://github.com/privacera/paig
+    official: true
+  - language: python
+    registry: pypi
+    name: privacera-shield
+    url: https://pypi.org/project/privacera-shield/
+    install: pip install privacera-shield
+    summary: Privacera AI Governance (PAIG) Shield Plugin Library
+    official: true

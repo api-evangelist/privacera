@@ -1,0 +1,14 @@
+generated: '2026-07-20'
+method: searched
+source: https://privacera.com/trust-center/
+url: https://privacera.com/trust-center/
+certifications:
+  - SOC 2 Type II
+compliance_notes: >-
+  Privacera (Trust3 AI) publishes a Trust Center describing its SOC 2 Type II
+  attestation, adherence to a shared security model with public cloud providers,
+  continuous security testing, and a Coordinated Vulnerability Disclosure (CVD)
+  program.
+evidence:
+  - source: https://privacera.com/trust-center/
+    keywords: [soc 2 type ii, trust center, coordinated vulnerability disclosure, shared security model]
