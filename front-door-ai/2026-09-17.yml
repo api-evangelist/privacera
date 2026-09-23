@@ -1,0 +1,31 @@
+# Front Door AI Index — privacera — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: privacera
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.privacera.com
+  final_host: privacera.com
+  ownership: own
+  owner: privacera
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 35
+  host_score: 35
+  density: 58.14
+  words: 602
+  tiers:
+    agentic: 4
+    core: 31
+    model: 0
+  ambiguous: 6
+  top_terms:
+    AI: 29
+    agent: 6
+    agentic: 2
+    LLMs: 1
+    RAG: 1
+    gen ai: 1
+    prompts: 1
